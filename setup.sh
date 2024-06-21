@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Installing dependancies
+apt install sudo
+
 # Creating the script file
 SCRIPT="/usr/local/bin/keep_nic_on.sh"
 echo "#!/bin/bash" > "$SCRIPT"
